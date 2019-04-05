@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="skrollr skrollr-desktop"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>金蝶云苍穹官网——Official</title>
+<link type="text/css" rel="stylesheet" href="./css/detail_pt.css">
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<link href="./css/fotorama.css" rel="stylesheet">
+<script type="text/javascript" src="./js/fotorama.js"></script><style type="text/css"></style>
+<style>
+  .hide{
+    display:none;
+  }
+  .showprocess{
+    cursor:pointer;
+  }
+  .showprocess:hover{
+    opacity:0.7;	
+  }  
+</style>
+
+</head>
+
+<center>
+<body leftmargin=0>    
+
+
+
+  <!-- ************  page  ************** -->  
+  <div class="page">
+    <div id="page1">
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/voice.gif" width="1260" position:“absolute”>
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0000001.gif" width="1260" position:“absolute”>
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0002.jpg" width="1260" position:absolute">
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/000003.png" width="1260" position:absolute">
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0004.jpg" width="1260" position:absolute">
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0005.jpg" width="1260" position:absolute">
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0006.jpg" width="1260" position:absolute">
+      
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0001_guide.gif" width="1260" position:absolute">
+     
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0002_respon.gif" width="1260" position:absolute">
+     
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0003_good.gif" width="1260" position:absolute">
+      
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/04_card.gif" width="1260" position:absolute">
+                                                                        
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/05_rongcuo.gif" width="1260" position:absolute">
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0010.jpg" width="1260" position:absolute">
+      <img class="lazy" src="./img/loading.jpg" data-original="./img_voice/0011.jpg" width="1260" position:absolute">
+
+    </div>
+  </div>
+         
+  <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
+  <script>
+
+   $(function() {
+    $("img.lazy").lazyload({
+     effect : "fadeIn",
+     container: $("#page1"),
+     threshold : 200
+     });
+    
+   });
+
+   </script>
+  
+</a></body></html></center>
